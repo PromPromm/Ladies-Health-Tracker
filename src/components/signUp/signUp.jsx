@@ -1,5 +1,6 @@
 import React from "react";
 //import { Link } from 'react-router-dom'
+
 const SignUp = () => {
   return (
     <>
@@ -8,16 +9,16 @@ const SignUp = () => {
         <p>Log In</p>
         <section>
           <form>
-            <label for="fname">First name:</label>
+            <label>First name:</label>
             <input type="text" id="fname" name="fname" />
 
-            <label for="lname">Last name:</label>
+            <label>Last name:</label>
             <input type="text" id="lname" name="lname" />
 
-            <label for="email">Email:</label>
+            <label>Email:</label>
             <input type="text" id="email" name="email" />
 
-            <label for="password">Password:</label>
+            <label>Password:</label>
             <input type="text" id="passwaord" name="password" />
           </form>
         </section>
