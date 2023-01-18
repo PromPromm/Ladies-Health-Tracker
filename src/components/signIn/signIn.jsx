@@ -13,13 +13,14 @@ const SignIn = () => {
               <p className = {styles.header}>Log in</p>
               <section>
                 <form>
-                  <div className="input-field">
+                  <div>
                     <label>Email Address</label>
                     <input type="email" placeholder="you@email.com"/>
                   </div>
-                  <div className="input-field">
+                  <div className={styles.inputField2}>
                     <label>Password</label>
                     <input type="password" placeholder="********"/>
+                    <Link to = ''> Forgot Password?</Link>
                   </div>
                 </form>
                 <button type="submit">Log in</button>
@@ -27,7 +28,7 @@ const SignIn = () => {
               <aside>
                 <div className={styles.box}>
                   <hr/>
-                  <p className = {styles.new}>I am new here</p>
+                  <p>I am new here</p>
                   <hr/>
                 </div>
                 <Link to = '/signUp'>Create Account</Link>

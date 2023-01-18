@@ -1,0 +1,58 @@
+.wrapper {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.info {
+  background: rgb(156, 201, 243, 0.05);
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  text-align: left;
+  font-size: 36px;
+  margin: 10px 0 20px;
+  color: #0d2c6c;
+}
+
+.inputField {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .wrapper,
+  .info {
+    width: 100%;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  button {
+    padding: 5px 80px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  button {
+    padding: 5px 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  aside {
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  aside a {
+    font-size: 18px;
+  }
+}
