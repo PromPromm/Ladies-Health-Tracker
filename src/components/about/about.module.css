@@ -1,0 +1,38 @@
+.About {
+  padding: 40px;
+}
+
+.head {
+  color: #0D2C6C;
+  font-size: 30px;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap:50px;
+  justify-content: center;
+}
+
+.leftSegment{
+  background: #0D2C6C;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+  padding: 30px;
+  width: 500px;
+  line-height: 2.5;
+  border-radius: 20px;
+}
+
+.rightSegment {
+  width: 600px;
+  font-size: 20px;
+}
+
+.navButton {
+  padding: 10px 35px;
+  font-size: 18px;
+  border-radius: 5px;
+}
