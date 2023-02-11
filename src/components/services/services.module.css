@@ -1,0 +1,174 @@
+.services {
+  padding: 40px;
+}
+.title {
+  color: #0D2C6C;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+.subSections {
+  padding-top: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.subContent, .about_Section2_container {
+  text-align: center;
+}
+
+.subContent {
+  display: flex;
+  width: 350px;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 0;
+  border: 2px solid #392E97;
+  border-radius: 14px;
+  background: #8DC2F30D;
+}
+
+.subContent p{
+  line-height: 2;
+  width: 250px;
+}
+
+.top {
+  color: #0D2C6C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_Section2_container{
+  margin-top: 60px;
+}
+.about_Section2_container h3 {
+  color: #392E97;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.about_Section2_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+.about_mini {
+  width: 250px;
+  line-height: 2;
+}
+.miniIcon {
+  width: 80px;
+  height: 75px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  background: #392E97;
+  margin: 0 0 10px 80px;
+  border-radius: 8px;
+}
+
+.p_title {
+  color: #392E97;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navButton {
+  padding: 10px 35px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.stories p {
+  width: 250px;
+}
+
+.pricing{
+  line-height: 2.5;
+  padding-bottom: 40px;
+}
+
+.pricing h3{
+  text-align: center;
+  color: #392E97;
+}
+
+.plans{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 40PX;
+}
+.basic {
+  border: 2px solid #392E97;
+  padding: 20px;
+  text-align: center;
+  line-height: 2.5;
+  width: 350px;
+  border-radius: 10PX;
+}
+
+.actionCall, .socials {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.action  {
+  background: #392E97;
+  padding: 97px;
+  text-align: center;
+  font-size: 34px;
+  color: white;
+  font-weight: bold;
+}
+
+.actionCall button {
+  font-weight: bold;
+  padding: 10px 35px;
+  background: white;
+  color: #392E97;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+footer {
+  background: #8DC2F31A;
+  display: flex;
+  gap: 20px;
+  color: #0D2C6C;
+  font-size: 20px;
+  justify-content: space-around;
+  padding: 30px 0;
+  align-items: center;
+}
+
+.contacts p{
+text-align: left;
+line-height: 2;
+font-weight: bold;
+}
+
+.copy {
+  align-self: flex-end;
+  font-size: 16px;
+}
+
+.socials {
+  gap: 20px;
+}

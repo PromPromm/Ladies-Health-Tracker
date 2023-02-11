@@ -8,7 +8,7 @@ const SignIn = () => {
       <section>
         <div className="container">
           <div className= {styles.wrapper}>
-            <header>Patient Portal</header>
+            <header className={styles.title}>Patient Portal</header>
             <section className = {styles.info}>
               <p className = {styles.header}>Log in</p>
               <section>
